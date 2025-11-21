@@ -31,5 +31,280 @@
       "Renderizar dados do JSON no DOM."
     ],
     "meta_minutos": 300
+  },
+  {
+    "nome": "TypeScript: Tipagem Estática no Front-end e Back-end",
+    "descricao": "Estudo aprofundado sobre como o TypeScript adiciona tipagem estática ao JavaScript, melhorando a manutenibilidade e a detecção de erros em tempo de compilação.",
+    "passos_estudo": [
+      "Instalação e configuração básica do compilador TS.",
+      "Compreender tipos primitivos, interfaces e tipos customizados.",
+      "Uso de classes, módulos e decorators em projetos TS.",
+      "Integrar TypeScript com React ou Node.js (Express/NestJS)."
+    ],
+    "meta_minutos": 180
+  },
+  {
+    "nome": "Linguagem Go (Golang) para Servidores Web",
+    "descricao": "Foco na sintaxe, concorrência e o ecossistema da Linguagem Go, ideal para back-end de alto desempenho e microsserviços.",
+    "passos_estudo": [
+      "Aprender a sintaxe básica, variáveis e controle de fluxo.",
+      "Dominar o conceito de Goroutines e Channels para concorrência.",
+      "Construir uma API REST simples usando o pacote 'net/http'.",
+      "Gerenciamento de dependências com módulos Go."
+    ],
+    "meta_minutos": 240
+  },
+  {
+    "nome": "Docker: Containerização e Imagens",
+    "descricao": "Introdução ao conceito de containers, construção de Dockerfiles otimizados e gerenciamento de imagens e volumes.",
+    "passos_estudo": [
+      "Instalar o Docker e entender o ciclo de vida de um container.",
+      "Criar Dockerfiles para aplicações web (ex: Node.js ou C#).",
+      "Comandos básicos: run, ps, exec, build, pull.",
+      "Usar Docker Compose para orquestrar múltiplos serviços (app + DB)."
+    ],
+    "meta_minutos": 150
+  },
+  {
+    "nome": "Arquitetura Serverless com AWS Lambda",
+    "descricao": "Exploração do paradigma serverless, focando na criação e deploy de funções AWS Lambda e integração com API Gateway.",
+    "passos_estudo": [
+      "Entender os benefícios e limitações do Serverless.",
+      "Configurar uma conta AWS e o CLI.",
+      "Desenvolver e fazer deploy de uma função Lambda simples (em Node.js ou Python).",
+      "Criar um endpoint RESTful usando AWS API Gateway para disparar a função."
+    ],
+    "meta_minutos": 160
+  },
+  {
+    "nome": "Kubernetes (K8s) Básico para Deploy",
+    "descricao": "Entendimento dos fundamentos do Kubernetes: Pods, Deployments, Services e Namespaces, essenciais para orquestração de containers em escala.",
+    "passos_estudo": [
+      "Conceitos de Cluster, Master e Nodes.",
+      "Criação e manipulação de Pods via kubectl.",
+      "Definição de Deployments para garantir alta disponibilidade.",
+      "Exposição de aplicações usando Services (ClusterIP, NodePort, LoadBalancer)."
+    ],
+    "meta_minutos": 220
+  },
+  {
+    "nome": "PostgreSQL: Funções, Índices e Performance",
+    "descricao": "Foco em recursos avançados do PostgreSQL, incluindo stored procedures, otimização de consultas e tipos de índices (B-tree, Hash).",
+    "passos_estudo": [
+      "Escrita de funções e procedures PL/pgSQL.",
+      "Análise de planos de execução com o comando EXPLAIN.",
+      "Criação e manutenção de índices eficazes.",
+      "Uso de CTEs (Common Table Expressions) para consultas complexas."
+    ],
+    "meta_minutos": 170
+  },
+  {
+    "nome": "Framework NestJS: Construção de Back-ends escaláveis",
+    "descricao": "Aprender a arquitetura modular do NestJS (baseado em Angular) para construir APIs robustas e de fácil manutenção usando TypeScript.",
+    "passos_estudo": [
+      "Entender os conceitos de Controllers, Providers e Modules.",
+      "Implementar injeção de dependência.",
+      "Uso de Pipes, Guards e Interceptors.",
+      "Configurar ORM (TypeORM ou Prisma) e conectar a um banco de dados."
+    ],
+    "meta_minutos": 200
+  },
+  {
+    "nome": "GraphQL: Design e Consumo de APIs Modernas",
+    "descricao": "Estudar o GraphQL como alternativa ao REST, focando na definição de schemas (SDL), queries, mutations e subscriptions.",
+    "passos_estudo": [
+      "Comparar GraphQL vs REST.",
+      "Definir schemas usando o Schema Definition Language (SDL).",
+      "Implementar Resolvers para buscar dados.",
+      "Consumir uma API GraphQL utilizando Apollo Client ou similar."
+    ],
+    "meta_minutos": 190
+  },
+  {
+    "nome": "MongoDB e Modelagem de Dados NoSQL",
+    "descricao": "Exploração do banco de dados orientado a documentos MongoDB, incluindo o shell, agregação e padrões de modelagem específicos para NoSQL.",
+    "passos_estudo": [
+      "Comandos básicos do shell e estrutura de documentos BSON.",
+      "Indexação e performance no MongoDB.",
+      "Dominar o Framework de Agregação (Aggregation Pipeline).",
+      "Padrões de design de dados (Embedding vs Referencing)."
+    ],
+    "meta_minutos": 140
+  },
+  {
+    "nome": "Vue.js 3 Composition API e Pinia",
+    "descricao": "Foco nas funcionalidades modernas do Vue 3, utilizando a Composition API para lógica reutilizável e o Pinia como solução leve de gerenciamento de estado.",
+    "passos_estudo": [
+      "Migrar de Options API para Composition API (setup()).",
+      "Uso de Refs e Reactive para reatividade.",
+      "Configuração e uso básico do Pinia para stores.",
+      "Desenvolver um componente reutilizável com TypeScript e Vue 3."
+    ],
+    "meta_minutos": 175
+  },
+  {
+    "nome": "React Hooks Avançados e Context API",
+    "descricao": "Aprofundamento no uso de 'custom hooks' e gerenciamento de estado global sem bibliotecas externas, utilizando `useReducer` e `useContext`.",
+    "passos_estudo": [
+      "Entender a diferença entre `useState`, `useEffect` e `useLayoutEffect`.",
+      "Criar e testar Custom Hooks para abstração de lógica.",
+      "Implementar um store global usando Context API e `useReducer`.",
+      "Otimização de performance com `useCallback` e `useMemo`."
+    ],
+    "meta_minutos": 165
+  },
+  {
+    "nome": "Svelte: O Framework Compilador",
+    "descricao": "Estudo do Svelte, que desloca o trabalho reativo para o estágio de compilação, resultando em menos código e melhor performance em tempo de execução.",
+    "passos_estudo": [
+      "Sintaxe básica do Svelte (.svelte files).",
+      "Entender a reatividade Svelte (labels $).",
+      "Gerenciamento de estado com Stores (writable, readable, derived).",
+      "Criar um projeto SvelteKit."
+    ],
+    "meta_minutos": 155
+  },
+  {
+    "nome": "Terraform: Infraestrutura como Código (IaC)",
+    "descricao": "Domínio do Terraform para provisionar, gerenciar e versionar infraestrutura de nuvem (AWS, Azure, GCP) de forma declarativa.",
+    "passos_estudo": [
+      "Instalar Terraform e configurar o provider AWS.",
+      "Sintaxe HCL: resources, variables, outputs.",
+      "Gerenciar o estado do Terraform (.tfstate).",
+      "Provisionar uma VPC e uma instância EC2 simples."
+    ],
+    "meta_minutos": 210
+  },
+  {
+    "nome": "Linguagem Rust: Segurança e Performance",
+    "descricao": "Introdução ao Rust, focado em seus principais diferenciais: segurança de memória garantida pelo 'Ownership' e performance de nível de sistema.",
+    "passos_estudo": [
+      "Aprender a sintaxe e o sistema de módulos (crates).",
+      "Dominar os conceitos de Ownership, Borrowing e Lifetimes.",
+      "Manipulação de erros com `Result` e `Option`.",
+      "Construir um pequeno CLI tool em Rust."
+    ],
+    "meta_minutos": 260
+  },
+  {
+    "nome": "Linguagem Kotlin: Desenvolvimento Android e Back-end",
+    "descricao": "Estudo do Kotlin, a linguagem oficial para Android, focando em sua interoperabilidade com Java e recursos modernos como Coroutines.",
+    "passos_estudo": [
+      "Sintaxe básica, variáveis, funções e classes Kotlin.",
+      "Uso de Null Safety e Data Classes.",
+      "Introdução às Coroutines para programação assíncrona.",
+      "Exemplo de API REST simples com Kotlin e Ktor/Spring Boot."
+    ],
+    "meta_minutos": 185
+  },
+  {
+    "nome": "C# e .NET Core para APIs Modernas",
+    "descricao": "Foco no ecossistema .NET Core, utilizando C# para construir APIs RESTful de alta performance e multiplataforma.",
+    "passos_estudo": [
+      "Sintaxe de C# e programação orientada a objetos (POO).",
+      "Estrutura de um projeto ASP.NET Core.",
+      "Criação de Controllers e Endpoints.",
+      "Configuração de Injeção de Dependência e ORM (Entity Framework Core)."
+    ],
+    "meta_minutos": 230
+  },
+  {
+    "nome": "Redis: Cache e Filas de Mensagens",
+    "descricao": "Estudo do Redis como um banco de dados in-memory, focado em casos de uso práticos como caching de sessão, filas de tarefas e contadores.",
+    "passos_estudo": [
+      "Instalação e comandos básicos (GET, SET, DEL).",
+      "Uso de estruturas de dados: Strings, Lists, Hashes e Sets.",
+      "Implementar um sistema de cache de dados com TTL (Time-To-Live).",
+      "Utilizar Redis para gerenciamento de filas de jobs (ex: Sidekiq/Celery patterns)."
+    ],
+    "meta_minutos": 130
+  },
+  {
+    "nome": "CI/CD com GitHub Actions",
+    "descricao": "Automação de processos de Integração Contínua e Entrega Contínua (CI/CD) utilizando os workflows nativos do GitHub.",
+    "passos_estudo": [
+      "Entender o conceito de Workflows, Jobs e Steps.",
+      "Criar um workflow para lint e testes automáticos (CI).",
+      "Configurar o deploy automático para um ambiente de staging (CD).",
+      "Uso de secrets e matrizes de execução."
+    ],
+    "meta_minutos": 145
+  },
+  {
+    "nome": "Microsserviços: Comunicação e Padrões",
+    "descricao": "Análise da arquitetura de microsserviços, abordando padrões de comunicação (síncrona/assíncrona) e resiliência (Circuit Breaker).",
+    "passos_estudo": [
+      "Comparar Monolito vs Microsserviços.",
+      "Implementar comunicação síncrona (REST) e assíncrona (Message Queues, ex: RabbitMQ).",
+      "Estudar o padrão Saga para consistência de dados.",
+      "Implementação de Service Discovery."
+    ],
+    "meta_minutos": 250
+  },
+  {
+    "nome": "Gitflow e Estratégias de Branching",
+    "descricao": "Domínio de metodologias avançadas de versionamento como Gitflow e Trunk-Based Development para equipes de desenvolvimento.",
+    "passos_estudo": [
+      "Revisão dos comandos Git pull, push, merge, rebase.",
+      "Implementar o fluxo Gitflow: master, develop, feature, release, hotfix.",
+      "Entender as vantagens e desvantagens do Trunk-Based Development.",
+      "Resolução avançada de conflitos de merge."
+    ],
+    "meta_minutos": 120
+  },
+  {
+    "nome": "FastAPI: Python de Alta Performance",
+    "descricao": "Estudo do FastAPI, um framework web moderno para Python, focado em performance (baseado em Starlette/Uvicorn) e tipagem com Pydantic.",
+    "passos_estudo": [
+      "Instalação e criação de um endpoint básico.",
+      "Uso do Pydantic para validação de requisições e respostas.",
+      "Implementação de dependências para injeção de lógica.",
+      "Configuração automática de documentação (Swagger/OpenAPI)."
+    ],
+    "meta_minutos": 160
+  },
+  {
+    "nome": "Metodologia Scrum e Práticas Ágeis",
+    "descricao": "Estudo das práticas e cerimônias do framework Scrum para gerenciar o desenvolvimento de software em ciclos iterativos e incrementais.",
+    "passos_estudo": [
+      "Entender os papéis (PO, SM, Dev Team).",
+      "Dominar as cerimônias: Sprint Planning, Daily Scrum, Review e Retrospective.",
+      "Criação e priorização de Product Backlog e Sprint Backlog.",
+      "Métricas Ágeis: Velocity e Burn-down charts."
+    ],
+    "meta_minutos": 100
+  },
+  {
+    "nome": "Testes Unitários e de Integração com Jest",
+    "descricao": "Foco na escrita de testes robustos para aplicações JavaScript/TypeScript, utilizando o Jest para testes unitários e de integração (mocks e spies).",
+    "passos_estudo": [
+      "Configuração do ambiente Jest para TS/JS.",
+      "Uso de asserts (expect) e suítes de testes (describe/it).",
+      "Criação de mocks de funções e módulos (mocking).",
+      "Cálculo e manutenção de cobertura de testes."
+    ],
+    "meta_minutos": 135
+  },
+  {
+    "nome": "WebAssembly (Wasm) e Casos de Uso",
+    "descricao": "Introdução ao WebAssembly, uma linguagem de baixo nível que permite rodar código compilado (Rust, C++) com performance próxima à nativa em navegadores web.",
+    "passos_estudo": [
+      "Entender o modelo de segurança e a arquitetura Wasm.",
+      "Como linguagens são compiladas para Wasm.",
+      "Exemplo prático de interação entre JavaScript e módulos Wasm.",
+      "Casos de uso em jogos, edição de vídeo e criptografia no browser."
+    ],
+    "meta_minutos": 140
+  },
+  {
+    "nome": "Segurança de APIs: OAuth 2.0 e JWT",
+    "descricao": "Estudo sobre como proteger APIs usando padrões modernos de autenticação e autorização, como o protocolo OAuth 2.0 e JSON Web Tokens (JWT).",
+    "passos_estudo": [
+      "Diferença entre autenticação e autorização.",
+      "Fluxos de concessão do OAuth 2.0 (Authorization Code Grant).",
+      "Estrutura e validação de um JSON Web Token (JWT).",
+      "Implementar a verificação de tokens em um back-end (ex: Express/NestJS)."
+    ],
+    "meta_minutos": 170
   }
 ]
