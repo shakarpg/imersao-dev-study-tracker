@@ -58,14 +58,13 @@ Ao iniciar, você será direcionado para escolher um plano:
 -----
 
 ### 🖼️ Preview
-!(preview)[preview.png]
+![preview](./preview.png)
 -----
 
 ### 🧑‍💻 Autor
 
 Feito com 💚 e 💡 por **Rafael Pereira Galhardo**
 
-  * **(LinkedIn):** [https://www.linkedin.com/in/rpg2011]
-  * **(GitHub):** [https://www.github.com/shakarpg]
+  * **[LinkedIn]:** (https://www.linkedin.com/in/rpg2011)
+  * **[GitHub]:** (https://www.github.com/shakarpg)
 
-> Lembre-se: O sucesso do projeto depende da **Utilidade**, **Criatividade** e da **Apresentação**\! \#ImersaoDev \#Alura \#Google \#Frontend \#JavaScript
