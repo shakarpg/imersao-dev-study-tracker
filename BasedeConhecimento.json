@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Fundamentos de HTML e CSS",
+    "descricao": "Estrutura básica de páginas e estilização, incluindo Flexbox e Responsividade.",
+    "passos_estudo": [
+      "Revisar tags e semântica do HTML5.",
+      "Aprender seletores avançados de CSS.",
+      "Dominar o Flexbox para layouts complexos.",
+      "Praticar Media Queries para design responsivo."
+    ],
+    "meta_minutos": 420
+  },
+  {
+    "nome": "JavaScript Básico (DOM)",
+    "descricao": "Manipulação do Document Object Model e conceitos essenciais de lógica de programação.",
+    "passos_estudo": [
+      "Estruturas de dados (Arrays e Objetos).",
+      "Eventos e manipulação do DOM (querySelector, addEventListener).",
+      "Lógica de condicional (if/else) e loops (for, while).",
+      "Funções e escopo."
+    ],
+    "meta_minutos": 600
+  },
+  {
+    "nome": "Integração com JSON e APIs",
+    "descricao": "Como buscar dados externos e trabalhar com a estrutura de dados JSON em JS.",
+    "passos_estudo": [
+      "Entender o formato JSON.",
+      "Usar a função `fetch` para requisições assíncronas.",
+      "Tratar promessas (`.then()` e `async/await`).",
+      "Renderizar dados do JSON no DOM."
+    ],
+    "meta_minutos": 300
+  }
+]

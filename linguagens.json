@@ -1,0 +1,178 @@
+[
+  {
+    "nome": "JavaScript",
+    "descricao": "Linguagem fundamental para a web. Base do desenvolvimento frontend e backend (Node.js).",
+    "passos_estudo": [
+      "Revisão de conceitos de 'var', 'let' e 'const'.",
+      "Estudar assincronicidade (Promises e async/await).",
+      "Praticar manipulação de Array methods (map, filter, reduce).",
+      "Criar um projeto prático de manipulção do DOM."
+    ],
+    "meta_minutos": 480
+  },
+  {
+    "nome": "Python",
+    "descricao": "Linguagem de alto nível, versátil em desenvolvimento web, Data Science e automação.",
+    "passos_estudo": [
+      "Configuração do ambiente (venv ou conda).",
+      "Estudo de estruturas de controle e loops.",
+      "Introdução a classes e herança (Orientação a Objetos).",
+      "Instalar e usar um framework web básico (ex: Flask)."
+    ],
+    "meta_minutos": 600
+  },
+  {
+    "nome": "TypeScript",
+    "descricao": "Superset tipado estaticamente do JavaScript. Essencial em projetos grandes e complexos.",
+    "passos_estudo": [
+      "Entender tipos básicos e interfaces.",
+      "Configuração do tsconfig.json e compilação.",
+      "Usar tipos genéricos.",
+      "Aplicar TypeScript em um projeto React ou Node.js existente."
+    ],
+    "meta_minutos": 360
+  },
+  {
+    "nome": "Java",
+    "descricao": "Linguagem robusta, orientada a objetos, amplamente usada em sistemas empresariais e desenvolvimento Android nativo.",
+    "passos_estudo": [
+      "Instalação do JDK e IDE.",
+      "Estudo de Programação Orientada a Objetos (POO): Encapsulamento, Herança, Polimorfismo.",
+      "Praticar estruturas de dados e coleções (ArrayList, HashMap).",
+      "Introdução ao Spring Boot."
+    ],
+    "meta_minutos": 720
+  },
+  {
+    "nome": "C#",
+    "descricao": "Linguagem orientada a objetos desenvolvida pela Microsoft como parte do framework .NET.",
+    "passos_estudo": [
+      "Entender a estrutura de um projeto .NET.",
+      "Dominar LINQ (Language Integrated Query).",
+      "Estudar as diferenças entre .NET Framework e .NET Core/5+.",
+      "Criar uma API simples com ASP.NET Core."
+    ],
+    "meta_minutos": 600
+  },
+  {
+    "nome": "Go",
+    "descricao": "Linguagem do Google, focada em simplicidade, alta performance e concorrência, ideal para microsserviços.",
+    "passos_estudo": [
+      "Configurar o GOPATH e módulos.",
+      "Estudar Goroutines e Channels para concorrência.",
+      "Trabalhar com pacotes e importações.",
+      "Criar uma API REST simples usando o framework Gin."
+    ],
+    "meta_minutos": 450
+  },
+  {
+    "nome": "Kotlin",
+    "descricao": "Linguagem moderna que roda na JVM. Alternativa moderna ao Java, popular em Android e backend.",
+    "passos_estudo": [
+      "Entender null safety e imutabilidade.",
+      "Funções de extensão e data classes.",
+      "Introdução a coroutines (assincronicidade).",
+      "Desenvolver um aplicativo Android básico ou um microserviço com Ktor/Spring."
+    ],
+    "meta_minutos": 420
+  },
+  {
+    "nome": "Rust",
+    "descricao": "Linguagem focada em segurança, concorrência e desempenho, ideal para sistemas de baixo nível.",
+    "passos_estudo": [
+      "Dominar o conceito de Ownership (posse) e Borrowing (empréstimo).",
+      "Entender lifetimes (tempo de vida).",
+      "Gerenciamento de pacotes com Cargo.",
+      "Praticar a criação de módulos e testes unitários."
+    ],
+    "meta_minutos": 540
+  },
+  {
+    "nome": "Swift",
+    "descricao": "Linguagem moderna e rápida da Apple para iOS, macOS e tvOS.",
+    "passos_estudo": [
+      "Entender Optionals e Unwrapping.",
+      "Estudar estruturas, classes e protocolos.",
+      "Introdução ao SwiftUI para interface de usuário.",
+      "Criar uma tela simples usando Xcode."
+    ],
+    "meta_minutos": 480
+  },
+  {
+    "nome": "Elixir",
+    "descricao": "Linguagem dinâmica e funcional baseada na máquina virtual Erlang (BEAM), ideal para sistemas escaláveis e tolerantes a falhas.",
+    "passos_estudo": [
+      "Entender a sintaxe funcional e imutabilidade.",
+      "Estudar o conceito de processos (concorrência).",
+      "Uso de Mix (gerenciador de projetos).",
+      "Introdução ao framework Phoenix."
+    ],
+    "meta_minutos": 360
+  },
+  {
+    "nome": "Scala",
+    "descricao": "Combina recursos de POO e funcional, executada na JVM.",
+    "passos_estudo": [
+      "Estudo de Traits e Classes Abstratas.",
+      "Funções de Ordem Superior e lambdas.",
+      "Trabalho com Collections (List, Map).",
+      "Introdução ao uso em Big Data (Apache Spark)."
+    ],
+    "meta_minutos": 500
+  },
+  {
+    "nome": "Clojure",
+    "descricao": "Dialeto moderno do Lisp, dinâmico e funcional, rodando na JVM.",
+    "passos_estudo": [
+      "Sintaxe Lisp e estruturas de dados persistentes.",
+      "Uso de Macros.",
+      "Estudo de concorrência com Atoms, Refs e Agents.",
+      "Criação de um projeto usando Leiningen."
+    ],
+    "meta_minutos": 400
+  },
+  {
+    "nome": "C",
+    "descricao": "Linguagem de baixo nível, eficiência e proximidade com o hardware. Base para muitos sistemas operacionais.",
+    "passos_estudo": [
+      "Dominar ponteiros e alocação de memória (malloc/free).",
+      "Estudo de structs e typedefs.",
+      "Manipulação de arquivos (fopen, fwrite).",
+      "Implementar um algoritmo de busca simples."
+    ],
+    "meta_minutos": 600
+  },
+  {
+    "nome": "PHP",
+    "descricao": "Linguagem de script de código aberto, amplamente usada para desenvolvimento web do lado do servidor.",
+    "passos_estudo": [
+      "Configuração do ambiente (XAMPP/MAMP).",
+      "Estudo de superglobais ($_GET, $_POST).",
+      "Conexão básica com banco de dados (PDO).",
+      "Introdução ao Laravel ou Symfony."
+    ],
+    "meta_minutos": 480
+  },
+  {
+    "nome": "Dart",
+    "descricao": "Linguagem do Google otimizada para interface de usuário (UI), usada com o framework Flutter.",
+    "passos_estudo": [
+      "Entender a tipagem forte e segurança contra nulos.",
+      "Funções assíncronas e Futures.",
+      "Estudo de widgets básicos do Flutter (Stateless e Stateful).",
+      "Criar uma aplicação móvel simples."
+    ],
+    "meta_minutos": 450
+  },
+  {
+    "nome": "Haskell",
+    "descricao": "Linguagem funcional pura e lazy, conhecida por seu forte sistema de tipos.",
+    "passos_estudo": [
+      "Dominar funções puras e imutabilidade.",
+      "Entender Monads (IO Monad).",
+      "Trabalhar com Pattern Matching.",
+      "Criação de um projeto usando Stack."
+    ],
+    "meta_minutos": 400
+  }
+]

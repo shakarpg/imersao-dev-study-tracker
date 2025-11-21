@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+
+* {
+    box-sizing: border-box; 
+}
+
+:root {
+    --primary-color: #38761d; /* Verde Escuro para Fundo */
+    --secondary-color: #216a3e; /* Verde Claro/Médio */
+    --tertiary-color: #4a86e8; /* Azul (para as Palavras) */
+    --accent-color: #ffd966; /* Amarelo (para Intercalação e Destaque) */
+    --bg-color: #d9ead3; /* Cor de Fundo Geral (Verde bem claro/bege) */
+    --text-color: #111111; /* Cor do Texto Principal (Preto) */
+}
+
+body {
+    margin: 0; 
+    background: var(--bg-color); /* Fundo Geral */
+    color: var(--text-color); /* Texto Principal Preto */
+    font-family: "Quicksand", sans-serif; 
+}
+
+header {
+    padding: 2rem 1rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    position: sticky; 
+    top: 0; 
+    background: var(--secondary-color); /* Fundo do Header em Verde Médio */
+    z-index: 10; 
+    border-bottom: 1px solid var(--primary-color);
+    gap: 1rem; 
+}
+
+header h1 {
+    font-size: 1.5rem; 
+    margin: 0; 
+    font-weight: 500; 
+    white-space: nowrap; 
+    color: var(--accent-color); /* Título em Amarelo */
+}
+
+/* O estilo de input e botão de busca do projeto original foi adaptado para o botão de Importar */
+#import-plan-btn {
+    padding: 1rem 2rem; 
+    border-radius: 1rem; 
+    border: none; 
+    cursor: pointer; 
+    font-family: inherit; 
+    font-weight: 500; 
+    font-size: 1rem; 
+    white-space: nowrap; 
+    transition: background-color 0.2s ease, color 0.2s ease; 
+    background-color: var(--tertiary-color); /* Botão Azul */
+    color: white; 
+    border: 1px solid var(--tertiary-color);
+}
+
+#import-plan-btn:hover {
+    background-color: #3c65c2; /* Azul mais escuro no hover */
+    color: white; 
+    box-shadow: 0 0 0 0.1rem #3c65c2;
+}
+
+#import-plan-btn:active {
+    transform: scale(0.98); 
+}
+
+main {
+    overflow-y: scroll; 
+    max-width: 80rem; 
+    margin: 0 auto; 
+    margin-top: 2rem; 
+    height: calc(100vh - 10rem - 4rem); 
+}
+
+/* --- Estilos do Dev Study Tracker --- */
+
+/* Estilo para os títulos de seção */
+.section-title {
+    max-width: 80rem;
+    margin: 3rem auto 1rem auto;
+    padding: 0 1rem;
+    color: var(--tertiary-color); /* Título da Seção em Azul */
+    font-size: 1.8rem;
+    border-bottom: 1px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+}
+
+article {
+    background: none; 
+    border-radius: 0; 
+    padding: 0 1rem; 
+    margin-bottom: 1.25rem; 
+    box-shadow: none; 
+    transition: background-color 0.3s ease, border-bottom-color 0.3s ease; 
+    border-bottom: 1px solid var(--secondary-color); /* Borda inferior verde */
+    padding-bottom: 1.5rem; 
+}
+
+article:hover {
+    transform: scale(1.01); 
+    cursor: default; /* Remove o cursor de mão para a lista */
+}
+
+article h2 {
+    margin-top: 0; 
+    font-weight: 600; 
+    font-size: 1.6rem; 
+    border-bottom: none; 
+    padding-bottom: 0; 
+    margin-bottom: 0.25rem; 
+    color: var(--tertiary-color); /* Título do Card em Azul */
+}
+
+article p {
+    margin: 0.5rem 0; 
+    line-height: 1.6; 
+    font-size: 1rem; 
+    margin-bottom: 0.5rem; 
+    color: var(--text-color); /* Texto do parágrafo em Preto */
+}
+
+article p strong {
+    color: var(--secondary-color); /* Destaque (strong) em Verde */
+    font-weight: 600; 
+}
+
+/* Diferenciação de cores para cards */
+.card-completed {
+    opacity: 0.7; /* Tarefa concluída fica mais suave */
+    border-left: 5px solid var(--secondary-color);
+    cursor: default !important;
+}
+
+.card-pending {
+    border-left: 5px solid var(--accent-color); /* Borda da Tarefa Pendente em Amarelo */
+}
+
+/* Estilo do botão de ação dentro do card */
+.card-action-btn {
+    background-color: var(--tertiary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    transition: background-color 0.2s ease;
+    font-weight: 500;
+}
+
+.card-action-btn:hover {
+    background-color: #3c65c2;
+}
+
+/* Estilo do progresso dentro do card */
+.progress-bar-container {
+    background: var(--bg-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    height: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: var(--accent-color); /* Barra de Progresso em Amarelo */
+    transition: width 0.3s ease-in-out;
+}
+
+/* Estilo para a Lista de Passos */
+.step-list {
+    list-style-type: none; /* Remove marcadores padrão */
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.step-list li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+    font-size: 0.95rem;
+    color: var(--text-color);
+}
+
+.step-list li::before {
+    content: "💡"; /* Ícone de lâmpada */
+    position: absolute;
+    left: 0;
+    color: var(--accent-color); /* Destaque em Amarelo */
+}
+
+/* Footer (Mantido) */
+.footer {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    color: var(--tertiary-color); 
+    background-color: var(--secondary-color); 
+    padding: 15px 20px; 
+    border-top: 1px solid var(--primary-color); 
+    font-size: 0.8rem; 
+}
+
+.footer-links {
+    list-style: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 15px; 
+}
+
+.footer-links a {
+    color: var(--accent-color); /* Links do Footer em Amarelo */
+    text-decoration: none; 
+    transition: color 0.2s; 
+}
+
+.footer-links a:hover {
+    color: white; 
+}
+
+/* Media Queries (Mantidas e Adaptadas) */
+@media (max-width: 768px) {
+    header { 
+        flex-direction: column; 
+        padding: 1rem; 
+    }
+
+    header h1 { 
+        text-align: center; 
+        margin-bottom: 1rem; 
+    }
+
+    #import-plan-btn {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    main { 
+        padding: 0 1rem; 
+    }
+}
